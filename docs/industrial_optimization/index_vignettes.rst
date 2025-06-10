@@ -9,6 +9,7 @@ Performance Benchmarks
     :maxdepth: 1
 
     vignette_fss
+    vignette_qap
 
 The following vignettes compare the performance of D-Wave's hybrid solvers
 versus other relevant solvers on a range of optimization applications.
@@ -26,3 +27,9 @@ Nonlinear Solver
         :link-type: ref
 
         Flow-shop scheduling.
+
+    .. grid-item-card:: :ref:`opt_vignette_qap`
+        :link: opt_vignette_qap
+        :link-type: ref
+
+        Facility placement.
