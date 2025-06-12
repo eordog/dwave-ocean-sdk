@@ -23,8 +23,7 @@ difficult to formulate for MILP and LP solvers.
 
 .. figure:: ../_images/vignette_qap_graphic.png
     :name: vignetteQAPGraphic
-    :height: 1367 pt
-    :width: 1835 pt
+    :width: 100%
     :alt: image
 
     The quadratic assignment problem.
@@ -44,10 +43,13 @@ locations and the flow between each pair of facilities, with problem sizes
 ranging from 12 to 256 locations (the number of locations is equal to the number
 of facilities). These instances, categorized as "a", "b", and "c" are as
 follows: 
+
 * "a" instances are from [Tai1991]_ and are uniformly generated.
+
 * "b" instances are from [Tai1995]_ and are randomly generated, with distance
     matrices containing Euclidean distances between pairs of :math:`n` randomly
     generated points in the plane.
+    
 * "c" instances are from [Tai1995]_ and have binary flow matrices with a block
     of 1s in the upper left corner and are inspired by the problem of printing
     greys of a given density.
