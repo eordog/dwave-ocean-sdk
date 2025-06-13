@@ -153,8 +153,7 @@ instances with a time limit of 150 seconds.
 
 .. figure:: ../_images/vignette_qap_lineplot.png
     :name: vignetteQAPLineplot
-    :height: 582 pt
-    :width: 1208 pt
+    :width: 100%
     :alt: lineplot
 
     The complete study contains more time limits. For all "b" and "c" instances,
